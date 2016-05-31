@@ -33,9 +33,7 @@ h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
     font-family: Aleo,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
 }
 
 hr.star-light,
@@ -240,7 +238,7 @@ section h2 {
     font-weight: 300;
 }
 
-#about .mission-statement span {
+#about .mission-statement h2 {
     font-size: 18px;
     line-height: 28.5px;
 }
@@ -256,7 +254,7 @@ section h2 {
         letter-spacing: 3px;
     }
 
-    #about .mission-statement span {
+    #about .mission-statement h2 {
         font-size: 24px;
         letter-spacing: 1px;
         line-height: 34.5px;
@@ -267,13 +265,13 @@ section h2 {
     padding-top: 130px;
 }
 
-#contact p {
+#contact p, #contact a {
     color: #D4BE21;
     font-size: 18px;
 }
 
 @media(min-width:768px) {
-    #contact p {
+    #contact p, #contact a {
         font-size: 30px;
         letter-spacing: 3px;
     }
@@ -495,7 +493,7 @@ footer .footer-below {
     box-shadow: none;
 }
 
-.portfolio-modal .modal-content h2 {
+.portfolio-modal .modal-content h3 {
     margin: 0;
     font-size: 3em;
 }
