@@ -227,12 +227,14 @@ section h2 {
 }
 
 #about .intro-text .name {
+    display: block;
     text-transform: uppercase;
     font-size: 44px;
     font-weight: 700;
 }
 
 #about .intro-text .skills {
+    display: block;
     text-transform: uppercase;
     font-size: 30px;
     font-weight: 300;
